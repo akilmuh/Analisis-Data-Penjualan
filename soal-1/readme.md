@@ -14,7 +14,7 @@ Tabel ini digunakan untuk melakukan pemetaan jenis outlet berdasarkan kolom **Ty
 - **Type**: Jenis outlet.  
 - **Mapping**: Kategori yang terkait dengan jenis outlet tersebut.
 
-```markdown
+
 | Type | Mapping   |
 |------|-----------|
 | #    | RETAILER  |
