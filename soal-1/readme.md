@@ -10,52 +10,10 @@ Tabel ini mencatat data penjualan bulanan untuk berbagai outlet, dengan struktur
 - **Jan-14** hingga **Jun-14**: Kolom yang mencatat jumlah penjualan untuk masing-masing bulan.
 
 ### Tabel 2: Mapping Type Outlet
-Tabel ini digunakan untuk melakukan pemetaan jenis outlet berdasarkan kolom **Type**. Struktur tabel:  
-- **Type**: Jenis outlet.  
+Tabel ini digunakan untuk melakukan pemetaan jenis outlet berdasarkan kolom **Type**. Struktur tabel:
+- **Type**: Jenis outlet.
 - **Mapping**: Kategori yang terkait dengan jenis outlet tersebut.
 
-
-| Type | Mapping   |
-|------|-----------|
-| #    | RETAILER  |
-| 1    | RETAILER  |
-| 10   | MTISUPER  |
-| 11   | MTIMINI   |
-| 12   | MTISUPER  |
-| 13   | RETAILER  |
-| 2    | RETAILER  |
-| 3    | RETAILER  |
-| 4    | RETAILER  |
-| 5    | RETAILER  |
-| 6    | RETAILER  |
-| 8    | RETAILER  |
-| 9    | MTISUPER  |
-| A    | WHOLESALER|
-| B    | WHOLESALER|
-| C    | WHOLESALER|
-| D    | WHOLESALER|
-| E    | RETAILER  |
-| F    | RETAILER  |
-| G    | RETAILER  |
-| H    | RETAILER  |
-| I    | RETAILER  |
-| J    | RETAILER  |
-| K    | RETAILER  |
-| L    | RETAILER  |
-| M    | RETAILER  |
-| N    | RETAILER  |
-| O    | MTISUPER  |
-| P    | MTIMINI   |
-| Q    | MTISUPER  |
-| R    | RETAILER  |
-| S    | RETAILER  |
-| T    | RETAILER  |
-| U    | RETAILER  |
-| V    | RETAILER  |
-| W    | RETAILER  |
-| X    | MTISUPER  |
-| Y    | RETAILER  |
-| Z    | RETAILER  |
 ---
 
 ## Langkah-Langkah Analisis
