@@ -1,16 +1,23 @@
-# Penjelasan Soal 1: Analisis Data Penjualan Bulanan
+# Analisis Data Penjualan
 
 ## Deskripsi Tabel
-Pada soal pertama, terdapat tiga tabel yang digunakan sebagai dasar analisis.
 
-### **Tabel 1: Data Penjualan Bulanan**
-Tabel ini berisi informasi mengenai penjualan outlet di beberapa bulan. Data ini mencakup identifikasi cabang outlet, ID pelanggan, tipe outlet, dan jumlah penjualan yang tercatat setiap bulan (Januari hingga Juni).
+### Tabel 1: Data Penjualan Bulanan
+Tabel ini mencatat data penjualan bulanan untuk berbagai outlet, dengan struktur kolom sebagai berikut:
+- **Branch**: Nama cabang tempat data penjualan berasal.
+- **Cust ID**: ID pelanggan unik untuk setiap outlet.
+- **Type Outlet**: Jenis outlet tempat transaksi dilakukan.
+- **Jan-14** hingga **Jun-14**: Kolom yang mencatat jumlah penjualan untuk masing-masing bulan.
 
-### **Tabel 2: Mapping Type Outlet**
-Tabel ini memetakan tipe outlet ke dalam kategori tertentu. Kategori ini digunakan untuk memahami lebih lanjut karakteristik dari setiap jenis outlet yang ada.
+### Tabel 2: Mapping Type Outlet
+Tabel ini digunakan untuk melakukan pemetaan jenis outlet berdasarkan kolom **Type**. Struktur tabel:
+- **Type**: Jenis outlet.
+- **Mapping**: Kategori yang terkait dengan jenis outlet tersebut.
 
-### **Tabel 3: Tabel Baru (Kode Outlet dan Nama Outlet)**
-Tabel ini berisi daftar outlet yang hanya mencatat **Kode Outlet** dan **Nama Outlet**. Tabel ini akan digunakan untuk menghubungkan outlet dengan data penjualan yang sudah ada di Tabel 1, agar bisa dihitung total penjualan setiap bulan untuk masing-masing outlet.
+### Tabel 3: Outlet Terpilih
+Tabel ini berisi daftar outlet yang hanya mencatat beberapa **Kode Outlet** dan **Nama Outlet**. Tabel ini akan digunakan untuk menghubungkan outlet dengan data penjualan yang sudah ada di Tabel 1
+
+---
 
 ## Tujuan Analisis
 
