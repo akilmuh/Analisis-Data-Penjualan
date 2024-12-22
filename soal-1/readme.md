@@ -1,35 +1,24 @@
-# Analisis Data Penjualan
+# Penjelasan Soal 1: Analisis Data Penjualan Bulanan
 
 ## Deskripsi Tabel
+Pada soal pertama, terdapat tiga tabel yang digunakan sebagai dasar analisis.
 
-### Tabel 1: Data Penjualan Bulanan
-Tabel ini mencatat data penjualan bulanan untuk berbagai outlet, dengan struktur kolom sebagai berikut:
-- **Branch**: Nama cabang tempat data penjualan berasal.
-- **Cust ID**: ID pelanggan unik untuk setiap outlet.
-- **Type Outlet**: Jenis outlet tempat transaksi dilakukan.
-- **Jan-14** hingga **Jun-14**: Kolom yang mencatat jumlah penjualan untuk masing-masing bulan.
+### **Tabel 1: Data Penjualan Bulanan**
+Tabel ini berisi informasi mengenai penjualan outlet di beberapa bulan. Data ini mencakup identifikasi cabang outlet, ID pelanggan, tipe outlet, dan jumlah penjualan yang tercatat setiap bulan (Januari hingga Juni).
 
-### Tabel 2: Mapping Type Outlet
-Tabel ini digunakan untuk melakukan pemetaan jenis outlet berdasarkan kolom **Type**. Struktur tabel:
-- **Type**: Jenis outlet.
-- **Mapping**: Kategori yang terkait dengan jenis outlet tersebut.
+### **Tabel 2: Mapping Type Outlet**
+Tabel ini memetakan tipe outlet ke dalam kategori tertentu. Kategori ini digunakan untuk memahami lebih lanjut karakteristik dari setiap jenis outlet yang ada.
 
----
+### **Tabel 3: Tabel Baru (Kode Outlet dan Nama Outlet)**
+Tabel ini berisi daftar outlet yang hanya mencatat **Kode Outlet** dan **Nama Outlet**. Tabel ini akan digunakan untuk menghubungkan outlet dengan data penjualan yang sudah ada di Tabel 1, agar bisa dihitung total penjualan setiap bulan untuk masing-masing outlet.
 
-## Langkah-Langkah Analisis
+## Tujuan Analisis
 
-### 1. Menambahkan Kolom Mapping ke Tabel 1
-Langkah pertama adalah menambahkan kolom baru bernama **Mapping** di Tabel 1. Kolom ini diisi dengan merujuk ke Tabel 2, di mana jenis outlet yang ada di Tabel 1 akan dicocokkan dengan kategori **Mapping** di Tabel 2.
+### **Tujuan 1: Menambahkan Kolom Mapping ke Tabel 1**
+Langkah pertama dalam analisis ini adalah menambahkan informasi mengenai kategori outlet ke dalam **Tabel 1**. Dengan informasi ini, kita bisa mengetahui tipe outlet setiap cabang dan lebih mudah dalam memahami hasil penjualan yang ada.
 
-### 2. Mengisi Tabel Baru Berdasarkan Tabel 1
-Tabel Baru yang diberikan memiliki kolom **Kode Outlet**, **Nama Outlet**, dan kolom **Jan-14** hingga **Jun-14** yang kosong. Tugas kita adalah mengisi kolom bulan tersebut dengan nilai yang sesuai berdasarkan data yang ada di Tabel 1. 
+### **Tujuan 2: Mengisi Tabel Baru Berdasarkan Data Penjualan**
+Setelah menambahkan kolom **Mapping** di **Tabel 1**, langkah selanjutnya adalah mengisi **Tabel Baru** yang berisi outlet dan informasi penjualan untuk tiap bulan. Tabel ini akan diisi dengan data penjualan yang telah tercatat di **Tabel 1**, agar kita bisa mendapatkan gambaran lengkap mengenai kinerja outlet di setiap bulan yang tersedia.
 
-Proses pengisian dilakukan dengan cara merujuk pada **Cust ID** di Tabel 1 yang dicocokkan dengan **Kode Outlet** di Tabel Baru. Fungsi yang digunakan adalah **SUMIF**, yang akan menjumlahkan penjualan untuk setiap outlet berdasarkan **Kode Outlet** yang ada di Tabel Baru.
-
-### 3. Hasil yang Diharapkan
-Setelah pengisian selesai, Tabel Baru akan terisi dengan jumlah penjualan bulanan untuk setiap outlet, yang memungkinkan analisis data penjualan per outlet secara lebih terperinci.
-
----
-
-## Kesimpulan
-Dengan menggunakan **VLOOKUP** untuk menambahkan kolom **Mapping** dan **SUMIF** untuk menghitung nilai bulanan, kita dapat mengisi Tabel Baru dengan informasi penjualan yang sesuai untuk setiap outlet. Proses ini menyederhanakan analisis data penjualan bulanan dan memberikan gambaran yang jelas tentang performa masing-masing outlet.
+## Tujuan Akhir
+Dengan menganalisis data penjualan berdasarkan informasi yang ada, kita dapat memperoleh wawasan yang lebih baik tentang kinerja outlet secara keseluruhan selama periode Januari hingga Juni 2014.
