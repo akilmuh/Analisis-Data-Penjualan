@@ -12,4 +12,4 @@ Tabel yang digunakan untuk analisis ini memiliki kolom sebagai berikut:
 2. Menarik kesimpulan mengenai kinerja brand berdasarkan hasil penjualan bulanan.
 
 ## Disclaimer
-Data yang digunakan dalam analisis ini telah disensor untuk menjaga kerahasiaan informasi. Nama item dan kode item telah diubah atau disembunyikan untuk mencegah pengungkapan data sensitif.
+Data yang digunakan dalam analisis ini telah disensor untuk menjaga kerahasiaan informasi.
