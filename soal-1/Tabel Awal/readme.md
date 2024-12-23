@@ -27,5 +27,8 @@ Langkah pertama dalam analisis ini adalah menambahkan informasi mengenai kategor
 ### **Tujuan 2: Mengisi Tabel Baru Berdasarkan Data Penjualan**
 Setelah menambahkan kolom **Mapping** di **Tabel 1**, langkah selanjutnya adalah mengisi **Tabel Baru** yang berisi outlet dan informasi penjualan untuk tiap bulan. Tabel ini akan diisi dengan data penjualan yang telah tercatat di **Tabel 1**, agar kita bisa mendapatkan gambaran lengkap mengenai kinerja outlet di setiap bulan yang tersedia.
 
+### Tujuan 3: Melakukan Analisis Total Penjualan Berdasarkan Mapping
+Langkah terakhir dalam analisis ini adalah menjumlahkan total penjualan untuk setiap kategori Mapping yang ada di Tabel 1.
+
 ## Disclaimer
 Perlu dicatat bahwa data yang digunakan dalam analisis ini telah disensor untuk menjaga kerahasiaan informasi.
