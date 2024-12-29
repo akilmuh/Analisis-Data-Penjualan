@@ -24,7 +24,7 @@ Tujuan pertama adalah menghitung kontribusi penjualan pada tahun 2015 berdasarka
 - **Area**: Menganalisis kontribusi penjualan dari masing-masing area.
 
 ### 2. Membandingkan Kinerja Branch dan Channel (2015 vs 2016)
-Langkah kedua adalah membandingkan kinerja penjualan pada tingkat cabang (**Branch**) dan kanal distribusi (**Channel**) antara tahun 2015 dan 2016. Analisis ini bertujuan untuk melihat perubahan performa dari tahun ke tahun.
+Langkah kedua adalah membandingkan kinerja penjualan pada tingkat kanal distribusi (**Channel**) antara tahun 2015 dan 2016. Analisis ini bertujuan untuk melihat perubahan performa dari tahun ke tahun.
 
 ### 3. Membuat Pivot Table Interaktif
 Tujuan terakhir adalah menyusun pivot table yang dapat digunakan oleh pihak lain untuk melakukan analisis lebih lanjut secara mandiri. Pivot table ini akan mempermudah eksplorasi data, termasuk melihat rincian kontribusi penjualan berdasarkan metrik yang diinginkan.
