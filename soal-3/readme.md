@@ -2,18 +2,14 @@
 
 ## Deskripsi Tabel
 
-Tabel yang digunakan pada analisis ini telah distandarisasi dan berisi 33,868 baris data dengan metrik berikut:
+Tabel yang digunakan pada analisis ini telah distandarisasi dan berisi 33,868 baris data dengan atribut kolom berikut:
 
-- **Region**: Wilayah tempat cabang beroperasi.
 - **Area**: Area spesifik dalam wilayah tersebut.
 - **Branch**: Cabang tempat transaksi terjadi.
-- **Group Channel**: Kelompok kanal distribusi.
 - **Channel**: Kanal distribusi.
 - **Type Outlet**: Jenis outlet tempat transaksi dilakukan.
 - **Brand**: Merek barang yang dijual.
 - **Segment**: Segmen pasar.
-- **Material**: Kode material barang.
-- **Material Description**: Deskripsi barang.
 - **Nilai Tahun 2015**: Total nilai penjualan pada tahun 2015.
 - **Nilai Tahun 2016**: Total nilai penjualan pada tahun 2016.
 
