@@ -31,4 +31,4 @@ Setelah menambahkan kolom **Mapping** di **Tabel 1**, langkah selanjutnya adalah
 Langkah terakhir dalam analisis ini adalah menjumlahkan total penjualan untuk setiap kategori Mapping yang ada di Tabel 1.
 
 ## Disclaimer
-Perlu dicatat bahwa data yang digunakan dalam analisis ini telah disensor untuk menjaga kerahasiaan informasi.
+Perlu dicatat bahwa data yang digunakan dalam analisis ini telah dibatasi.
